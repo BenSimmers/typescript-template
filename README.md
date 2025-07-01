@@ -1,6 +1,6 @@
 # ts-template
 
-A TypeScript template repository.
+A TypeScript template repository. This template is designed to provide a starting point for TypeScript projects.
 
 ## Getting Started
 
@@ -8,6 +8,10 @@ A TypeScript template repository.
 2. Run `pnpm install` to install the dependencies.
 3. Run `pnpm build` to build the project.
 4. Run `pnpm test` to run the tests.
+
+## Changesets
+
+This repository uses [Changesets](https://github.com/changesets/changesets) to manage versioning and changelogs. When making changes to the codebase, you can create a changeset by running `pnpm changeset` and following the prompts. This will generate a markdown file in the `changesets` directory, which will be used to update the version and changelog when publishing.
 
 ## Using devcontainer
 
